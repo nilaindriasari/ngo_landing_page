@@ -1,0 +1,41 @@
+.social-channels {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+    li {
+    margin-right: .4em;
+      a{
+      width: 25px;
+      height: 25px;
+      display: block;
+      transition: .2s;
+      /* hide text */
+      text-indent: 110%;
+      white-space: nowrap;
+      overflow: hidden;
+        &:hover {
+        filter: invert(100%);
+        }
+      }
+    }
+  }
+
+.twitter,
+.facebook,
+.linkedin {
+  background-image: url(../images/sprites.png);
+}
+
+.twitter {
+  background-position: 0 0;
+}
+
+.facebook {
+  background-position: -25px 0;
+}
+
+.linkedin {
+  background-position: -50px 0;
+}

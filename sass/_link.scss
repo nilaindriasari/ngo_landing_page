@@ -1,0 +1,31 @@
+a {
+  font-size: $font-size-small;
+  color: $color-text-red;
+  text-decoration: none;
+   &:hover {
+   color: $color-text-main;
+   cursor: pointer;
+   }
+  }
+
+@media screen and (min-width: 48em) {
+  a{
+    font-size: $font-size-main;
+  }
+}
+
+/* Join button link
+------------------------------------------*/
+
+.join {
+  color: $color-text-red;
+  border: 2.5px solid $color-text-red;
+  border-radius: 9px;
+  padding: 9px 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+    &:hover {
+    border: 2.5px solid $color-text-main;
+    cursor: pointer;
+    }
+  }

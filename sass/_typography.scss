@@ -1,0 +1,67 @@
+body {
+  font-size: $font-size-main;
+  font-family: $font-family;
+  color: $color-text-main;
+  font-weight: $font-weight-main;
+}
+
+p{
+  padding: 0 1em 0 1em;
+  // text-align: justify;
+  text-align: center;
+}
+
+h1 {
+  font-size: $font-size-main-big;
+  line-height: 1;
+  font-weight: $font-weight-main;
+  text-align: center;
+  margin-top: 0em;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: $font-weight-strong;
+  color: $color-text-red;
+  text-align: center;
+}
+
+h3 .counter {
+  font-size: 60px;
+}
+
+.footer {
+  font-size: 11px;
+  color: $color-background;
+  text-align: center;
+  padding: .5em;
+}
+
+@media screen and (min-width: 48em){
+  body{
+    font-size: $font-size-main-big;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+h2 {
+  color: $color-text-main;
+  font-size: 1.7em;
+  line-height: 1.2;
+  font-weight: $font-weight-bold;
+  margin: 1em 2.5em;
+}
+
+strong {
+  font-weight: $font-weight-strong;
+  color: $color-text-red;
+}
+
+small {
+  font-size: .875em;
+  line-height: 1.7143;
+  @include margin-text();
+}

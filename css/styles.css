@@ -1,0 +1,537 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=latin-ext");
+body {
+  background: #171111;
+  margin: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.container {
+  margin: 85px auto;
+  width: 88%;
+  max-width: 1080px; }
+
+.wrapper {
+  padding-bottom: 1em;
+  background: #171111; }
+
+footer {
+  bottom: 0 auto;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background: linear-gradient(#640815, #da0421); }
+
+body {
+  font-size: 14px;
+  font-family: "Quicksand", sans-serif;
+  color: #dad4d4;
+  font-weight: 300; }
+
+p {
+  padding: 0 1em 0 1em;
+  text-align: center; }
+
+h1 {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0em; }
+
+h3 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #da0421;
+  text-align: center; }
+
+h3 .counter {
+  font-size: 60px; }
+
+.footer {
+  font-size: 11px;
+  color: #171111;
+  text-align: center;
+  padding: .5em; }
+
+@media screen and (min-width: 48em) {
+  body {
+    font-size: 16px; }
+
+  h1 {
+    font-size: 1.5em; } }
+h2 {
+  color: #dad4d4;
+  font-size: 1.7em;
+  line-height: 1.2;
+  font-weight: 500;
+  margin: 1em 2.5em; }
+
+strong {
+  font-weight: 800;
+  color: #da0421; }
+
+small {
+  font-size: .875em;
+  line-height: 1.7143;
+  margin: 1em 0; }
+
+a {
+  font-size: 12px;
+  color: #da0421;
+  text-decoration: none; }
+  a:hover {
+    color: #dad4d4;
+    cursor: pointer; }
+
+@media screen and (min-width: 48em) {
+  a {
+    font-size: 14px; } }
+/* Join button link
+------------------------------------------*/
+.join {
+  color: #da0421;
+  border: 2.5px solid #da0421;
+  border-radius: 9px;
+  padding: 9px 13px;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .join:hover {
+    border: 2.5px solid #dad4d4;
+    cursor: pointer; }
+
+.boy {
+  margin-top: -5.2em;
+  margin-left: 1.5em; }
+
+@media screen and (min-width: 48em) {
+  .boy {
+    margin-top: -35em;
+    margin-left: 0; } }
+.picture,
+.picture2 {
+  height: auto;
+  display: block;
+  justify-content: center; }
+
+.picture2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 0; }
+
+.picture {
+  position: absolute;
+  margin-top: 0; }
+
+.picture img,
+.picture2 img {
+  max-width: none;
+  width: 95%; }
+
+.picture img {
+  filter: drop-shadow(15px 10px 15px #171111); }
+
+.picture {
+  z-index: 1;
+  transform: translateY(-15px);
+  transition: 2s; }
+
+.picture:hover,
+.picture:focus {
+  transform: translateY(20px); }
+
+@media screen and (min-width: 48em) {
+  .picture,
+  .picture2 {
+    display: flex;
+    top: 10em;
+    left: 25em; }
+
+  .picture {
+    position: absolute;
+    margin-top: 0;
+    z-index: 1;
+    transform: translateY(0px);
+    transition: 2s; }
+
+  .picture:hover {
+    transform: translateY(50px); }
+
+  .picture2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: -6em; }
+
+  .picture img,
+  .picture2 img {
+    max-width: none; } }
+.intro {
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  background: #171111;
+  background-size: cover; }
+
+.intro .inner {
+  width: 100%; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5em; }
+
+@media screen and (min-width: 48em) {
+  .intro .inner {
+    display: flex;
+    align-items: center;
+    min-height: 100vh; }
+
+  .content {
+    width: 65%;
+    margin-top: -15em;
+    padding-top: 0;
+    margin-left: 7em; } }
+.top {
+  text-align: center;
+  position: absolute;
+  bottom: .5em;
+  width: 100%; }
+
+.down img {
+  transform: rotate(90deg);
+  vertical-align: middle;
+  padding: .5em; }
+
+.parallax,
+.parallax-2,
+.parallax-3 {
+  height: 500px;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -5; }
+
+.parallax {
+  background-image: url(../images/redpencil_background2_01.jpg); }
+
+.parallax-2 {
+  background-image: url(../images/redpencil_background2_02.jpg); }
+
+.parallax-3 {
+  background-image: url(../images/redpencil_background2_03.jpg); }
+
+.head1,
+.head2,
+.head3 {
+  filter: drop-shadow(-45px 0px 5px #171111); }
+
+@media screen and (min-width: 48em) {
+  img .head1,
+  img .head2,
+  img .head3 {
+    max-width: none;
+    height: 100%; }
+
+  .head1 {
+    padding-left: 25em; }
+
+  .head2 {
+    padding-left: 35em; }
+
+  .head3 {
+    padding-left: 30em; } }
+@media screen and (min-width: 48em) {
+  .main-address {
+    display: flex;
+    justify-content: space-between; }
+
+  .address1 {
+    width: 50%;
+    padding: 0.5em; }
+
+  .address1 p {
+    text-align: right;
+    border-right: 1px solid #5f5757; }
+
+  .address2 {
+    width: 50%;
+    padding: .5em;
+    margin-left: -1em; }
+
+  .address2 p {
+    text-align: left; } }
+.js .overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 1s; }
+
+.js .overlay-content {
+  margin: 2em auto; }
+
+.js .hide-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  opacity: 0; }
+
+.donation-container {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 8em; }
+
+@media screen and (min-width: 48em) {
+  .donation-container {
+    margin-top: 13em; } }
+.donation-box {
+  width: 300px;
+  height: 400px;
+  background-color: #dad4d4;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.15s ease-out; }
+
+.donation-box .title {
+  background-color: #da0421;
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  color: #dad4d4;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 9px;
+  font-size: 14px; }
+
+.donation-box .donate-button {
+  background-color: #da0421;
+  width: 100%;
+  color: #dad4d4;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  bottom: 0px;
+  position: absolute;
+  cursor: pointer;
+  font-weight: 800; }
+
+.donation-box .fields {
+  width: 59%;
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: 15px; }
+
+.donation-box .fields input {
+  width: 80%;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 4px;
+  border-width: 0px;
+  color: #5f5757;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px; }
+
+.donation-box .fields input:focus {
+  outline-style: none; }
+
+.donation-box .amount {
+  width: 30%;
+  display: block;
+  position: absolute;
+  top: 60px;
+  right: 15px; }
+
+.donation-box .amount .button {
+  width: 100%;
+  background-color: #171111;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #dad4d4;
+  padding: 15px 0px 15px 0px;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 200ms background-color; }
+  .donation-box .amount .button:hover {
+    background-color: #5f5757; }
+
+.donation-box .amount .button input {
+  min-width: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+  color: #dad4d4;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px dotted #dad4d4;
+  transition: all 0.15s ease-out; }
+
+.donation-box .amount .button input:focus {
+  outline-style: none; }
+
+.set-amount {
+  max-width: 70px; }
+
+.switch {
+  position: absolute;
+  top: 190px;
+  left: 15px;
+  margin: 20px auto;
+  height: 26px;
+  width: 55%;
+  background: white;
+  border-radius: 3px; }
+
+.switch-label {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 49%;
+  line-height: 26px;
+  font-size: 11px;
+  color: #5f5757;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold; }
+
+.switch-label:active {
+  font-weight: bold; }
+
+.switch-label-off {
+  padding-left: 1px; }
+
+.switch-label-on {
+  padding-right: 1px; }
+
+.switch-input {
+  display: none; }
+
+.switch-input:checked + .switch-label {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.65);
+  transition: 0.15s ease-out; }
+
+.switch-input:checked + .switch-label-on ~ .switch-selection {
+  left: 80px; }
+
+.switch-selection {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 1px;
+  width: 49%;
+  height: 22px;
+  background: #da0421;
+  border-radius: 3px;
+  background-color: #da0421;
+  transition: left 0.15s ease-out; }
+
+.checkboxes {
+  position: absolute;
+  top: 242px;
+  left: 13px; }
+  .checkboxes label {
+    position: relative;
+    top: -8px;
+    font-size: 12px;
+    color: #5f5757; }
+
+.checkbox {
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #da0421;
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  outline: none;
+  transition: all 0.15s ease-out; }
+
+.checkbox:checked {
+  background-color: #da0421;
+  border: 1px solid #da0421;
+  color: white; }
+
+.checkbox:checked:after {
+  content: '\2714';
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  color: #171111; }
+
+.donate-button a {
+  font-size: 18px;
+  color: #dad4d4;
+  align-content: center; }
+
+.close {
+  background: url(../images/ic_cancel_white_24px.svg);
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: absolute;
+  right: 2.3em;
+  top: 7em;
+  /*hide-text*/
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+@media screen and (min-width: 48em) {
+  .close {
+    right: 56em;
+    top: 10em; } }
+.social-channels {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 1em; }
+  .social-channels li {
+    margin-right: .4em; }
+    .social-channels li a {
+      width: 25px;
+      height: 25px;
+      display: block;
+      transition: .2s;
+      /* hide text */
+      text-indent: 110%;
+      white-space: nowrap;
+      overflow: hidden; }
+      .social-channels li a:hover {
+        filter: invert(100%); }
+
+.twitter,
+.facebook,
+.linkedin {
+  background-image: url(../images/sprites.png); }
+
+.twitter {
+  background-position: 0 0; }
+
+.facebook {
+  background-position: -25px 0; }
+
+.linkedin {
+  background-position: -50px 0; }
