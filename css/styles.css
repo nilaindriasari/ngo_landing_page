@@ -105,69 +105,32 @@ caption {
     cursor: pointer; }
 
 .boy {
-  margin-top: -5.2em;
-  margin-left: 1.5em; }
+  display: flex;
+  align-items: center;
+  margin-top: -5.5em;
+  margin-left: 1em; }
 
 @media screen and (min-width: 48em) {
   .boy {
-    margin-top: -35em;
-    margin-left: 0; } }
-.picture,
+    width: 50%;
+    margin-top: -25em;
+    margin-left: 25em; } }
 .picture2 {
-  height: auto;
-  display: block;
-  justify-content: center; }
+  position: relative; }
 
-.picture2 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin-top: 0; }
-
-.picture {
-  position: absolute;
-  margin-top: 0; }
-
-.picture img,
 .picture2 img {
-  max-width: none;
-  width: 95%; }
-
-.picture img {
   filter: drop-shadow(15px 10px 15px #171111); }
 
 .picture {
-  z-index: 1;
-  transform: translateY(-15px);
-  transition: 2s; }
+  position: absolute;
+  transform: translateY(-20px);
+  transition: 2s;
+  z-index: 1; }
 
-.picture:hover,
-.picture:focus {
+.picture:hover {
   transform: translateY(20px); }
 
 @media screen and (min-width: 48em) {
-  .picture,
-  .picture2 {
-    display: flex;
-    top: 10em;
-    left: 25em; }
-
-  .picture {
-    position: absolute;
-    margin-top: 0;
-    z-index: 1;
-    transform: translateY(0px);
-    transition: 2s; }
-
-  .picture:hover {
-    transform: translateY(50px); }
-
-  .picture2 {
-    position: relative;
-    display: flex;
-    align-items: center;
-    margin-top: -6em; }
-
   .picture img,
   .picture2 img {
     max-width: none; } }
@@ -189,6 +152,7 @@ caption {
 
 @media screen and (min-width: 48em) {
   .intro .inner {
+    width: 80%;
     display: flex;
     align-items: center;
     min-height: 100vh; }
@@ -218,9 +182,6 @@ caption {
   z-index: 1000;
   background: rgba(0, 0, 0, 0.7);
   transition: opacity 1s; }
-
-.js .overlay-content {
-  margin: 2em auto; }
 
 .js .hide-text {
   clip: rect(1px, 1px, 1px, 1px);
@@ -435,17 +396,13 @@ caption {
   height: 24px;
   display: block;
   position: absolute;
-  right: 2.3em;
-  top: 7em;
+  right: -1em;
+  top: -1em;
   /*hide-text*/
   text-indent: 110%;
   white-space: nowrap;
   overflow: hidden; }
 
-@media screen and (min-width: 48em) {
-  .close {
-    right: 56em;
-    top: 10em; } }
 .parallax,
 .parallax-2,
 .parallax-3 {

@@ -27,7 +27,7 @@ down.addEventListener('click', function() {
 ///////////////////////// Modal /////////////////////////
 
 const modal = document.querySelector('.overlay')
-const modalContent = document.querySelector('.overlay-content')
+const modalContent = document.querySelector ('.title')
 const html = document.querySelector('html')
 
 // Add js class to html element for accessibility (see CSS)

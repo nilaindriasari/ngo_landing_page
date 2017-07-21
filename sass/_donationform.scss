@@ -236,17 +236,10 @@ outline-style: none;
   height: 24px;
   display: block;
   position: absolute;
-  right: 2.3em;
-  top: 7em;
+  right: -1em;
+  top: -1em;
   /*hide-text*/
   text-indent: 110%;
   white-space: nowrap;
   overflow: hidden;
-}
-
-@media screen and (min-width: 48em){
-  .close {
-    right: 56em;
-    top: 10em;
-  }
 }
